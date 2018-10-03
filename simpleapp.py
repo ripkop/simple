@@ -10,7 +10,7 @@ start = int(round(time.time()))
 @app.route("/")
 def hello_world():
 
-    return "Hello World from Distelli! test tost test"
+    return "Hello World from milad for testing distelli"
 
 if __name__ == '__main__':
     parser = optparse.OptionParser(usage="python simpleapp.py -p <port>")
